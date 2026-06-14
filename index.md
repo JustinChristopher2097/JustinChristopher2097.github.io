@@ -57,7 +57,7 @@ This enhancement adds a role-based access control system with an administrator a
 
 This enhancement demonstrates a security mindset by anticipating how unrestricted account access could be exploited in a real business environment. Organizations do not want every employee to have the ability to modify inventory records, and an approval workflow ensures that access is intentional rather than automatic. The enhancement also demonstrates software design skills because adding roles and permissions required changes across the database layer, the login flow, the inventory screen, and a new admin activity, all of which needed to work together coherently.
 
-[View the full Enhancement One narrative (PDF)](https://github.com/JustinChristopher2097/JustinChristopher2097.github.io/blob/main/Narratives/Enhancement1_Narrative.pdf)
+[View the full Enhancement One narrative (PDF)](https://github.com/JustinChristopher2097/JustinChristopher2097.github.io/blob/main/narratives/Enhancement1_Narrative.pdf)
 
 ---
 
@@ -75,7 +75,7 @@ This enhancement adds a search bar and a low-stock filter toggle to the inventor
 
 This enhancement demonstrates the ability to design efficient computing solutions using algorithmic principles. Filtering at the database level rather than in application memory is the more scalable approach. As the inventory grows, the database engine handles the filtering work instead of the app iterating over an increasingly large list. The enhancement also required modifying how data flows through the application, from the UI input to the query construction to the adapter update, which demonstrates understanding of data structures and application architecture.
 
-[View the full Enhancement Two narrative (PDF)](https://github.com/JustinChristopher2097/JustinChristopher2097.github.io/blob/main/Narratives/Enhancement2_Narritive.pdf)
+[View the full Enhancement Two narrative (PDF)](https://github.com/JustinChristopher2097/JustinChristopher2097.github.io/blob/main/narratives/Enhancement2_Narrative.pdf)
 
 ---
 
@@ -93,7 +93,7 @@ This enhancement expands the users table to include three new columns: `role` (s
 
 This enhancement demonstrates applied knowledge of database design and the ability to evolve a schema to meet new application requirements without breaking existing functionality. Adding `role` and `account_status` as separate columns rather than combining them into a single field was a deliberate design trade-off. It makes the data more queryable and the application logic easier to reason about. The `searchItems()` method added in Enhancement Two also reflects database-level thinking, since it pushes filtering into SQL rather than performing it in Java. Together, these changes show that I can design a schema intentionally and extend it as requirements change.
 
-[View the full Enhancement Three narrative (PDF)](https://github.com/JustinChristopher2097/JustinChristopher2097.github.io/blob/main/Narratives/Enhancement3_Narrative.pdf)
+[View the full Enhancement Three narrative (PDF)](https://github.com/JustinChristopher2097/JustinChristopher2097.github.io/blob/main/narratives/Enhancement3_Narrative.pdf)
 
 ---
 
